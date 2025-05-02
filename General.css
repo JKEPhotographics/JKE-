@@ -1,0 +1,108 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom right, #1e90ff, #00ced1);
+    color: #111;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  a {
+    color: #ffdd57;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    color: white;
+  }
+  
+  .hero {
+    background: linear-gradient(to top right, #1e90ff, #00ced1);
+    text-align: center;
+    padding: 2rem 1rem;
+    color: white;
+  }
+  
+  .logo {
+    max-width: 80px;
+    margin-bottom: 1rem;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #ffe600;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #fff897;
+  }
+  
+  .nav-links {
+    margin-top: 1rem;
+  }
+  
+  .nav-links a {
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 2rem 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .content h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .intro {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  
+  .courses {
+    text-align: center;
+  }
+  
+  .courses h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .courses ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .courses li {
+    margin: 0.5rem 0;
+    font-weight: 500;
+  }
+  
+  footer {
+    background: linear-gradient(to right, #1e90ff, #00ced1);
+    color: #fff897;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
